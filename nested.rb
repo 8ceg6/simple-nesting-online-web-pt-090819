@@ -87,7 +87,7 @@ def adding_matz
         }
      }
 
-   
+   end
 end
 
 def changing_alan
