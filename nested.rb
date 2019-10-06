@@ -16,7 +16,7 @@ def hopper
         }
      }
 
-
+programmer_hash[:grace_hopper]
 end 
 
 def alan_kay_is_known_for
@@ -38,10 +38,10 @@ def alan_kay_is_known_for
         }
        
      }
+     programmer_hash[:alan_kay][:known_for]
   end
   
-end
-programmer_hash[:alan_kay][:known_for]
+
  
 def dennis_ritchies_language
 	programmer_hash = 
@@ -59,7 +59,10 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+    programmer_hash[:dennis_ritchie] [:languages].to_a
 end
+
+
 
 def adding_matz
 # add the following information to the top level of programmer_hash
