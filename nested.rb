@@ -71,7 +71,7 @@ end
     #:languages => ["LISP", "C"]
  }
 
-	programmer_hash = 
+programmer_hash =
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -85,11 +85,15 @@ end
           :known_for => "Unix",
           :languages => ["C"]
         }
- 		}
+     }
 
-   
-end
-
+  programmer_hash[:yukihiro_matsumoto] = {
+    known_for: "Ruby",
+    languages:
+      ["LISP", "C"]
+    }
+    
+  programmer_hash
 def changing_alan
 	programmer_hash = 
  		{
